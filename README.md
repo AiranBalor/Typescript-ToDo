@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# **ToDo-приложение, написанное с использованием Typescript+Redux**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![Typescript](https://img.shields.io/badge/-Typescript-blue)
+![React.js](https://img.shields.io/badge/-React.js-orange)
 
-In the project directory, you can run:
+___
 
-### `yarn start`
+## Описание
+Представляет из себя простое ToDo-приложение, позволяющее добавлять, удалять, и отмечать, как выполненные, задачи в списке дел. Создано с целью изучения Typescript и его использования совместо с React.js. Для верстки использовалась библиотека Materialize. Данные хранятся в LocalStorage браузера.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Стек
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- TypeScript
+- React.js
+- React Router
+- Materialize
 
-### `yarn test`
+## Установка
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Для запуска проекта необходимо:
 
-### `yarn build`
+1. Установить npm зависимости:</br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Выполнить команду в терминале:</br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+npm run start  — запускает сервер
+```
 
-### `yarn eject`
+Если все прошло успешно, проект можно будет увидеть в браузере по адресу: `http://localhost:3000`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Планы по улучшению
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+В дальнейшем планирую расширить функционал приложения: добавить возможность редактирования задач, возможность выставить им приоритет, возможность сортировки задач по дате, сложности, актуальности. Для управления состояниями, которые возникнут в процессе добавления перечисленных возможностей,
+предполагаю использовать Redux.js.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
